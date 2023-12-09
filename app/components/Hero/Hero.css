@@ -1,0 +1,27 @@
+.hero {
+  height: calc(100vh - 66px);
+  display: flex;
+  flex-direction: row;
+  padding: 0 64px;
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+
+    .title {
+
+    }
+
+    .description {}
+  }
+
+  .imageContainer{
+    width: 50%;
+    height: inherit;
+
+  }
+}

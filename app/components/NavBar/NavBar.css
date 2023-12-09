@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 64px;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--compl-dark);
+    background-color: var(--neutro);
+    position: sticky;
+
+
+    .name{
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+    }
+    .pages{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+
+        /* .item{
+            gap: 8px
+        } */
+    }
+}
